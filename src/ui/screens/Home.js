@@ -1,9 +1,12 @@
-import * as React from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import Accordion from "react-bootstrap/Accordion";
+import Collapse from "react-bootstrap/Collapse";
+import Footer from "../components/Footer";
 
 export const Home = () => {
+  const [open, setOpen] = useState(false);
   return (
     <div>
       <div
@@ -345,6 +348,7 @@ export const Home = () => {
           paddingLeft: 100,
           marginTop: 100,
           justifyContent: "space-between",
+          marginBottom: 120,
         }}
       >
         <div>
@@ -355,8 +359,35 @@ export const Home = () => {
         </div>
         <div style={{ textAlign: "left", width: 700 }}>
           <h2>FAQ's</h2>
+          <Accordion defaultActiveKey="0">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>
+                Is Sanwopay security guaranteed?
+              </Accordion.Header>
+              <Accordion.Body>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                venenatis velit eu odio vitae tristique. Eget sit urna imperdiet
+                id. Lorem ipsum dolor sit amet,
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+              <Accordion.Header>
+                Is Sanwopay security guaranteed?
+              </Accordion.Header>
+              <Accordion.Body>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+                venenatis velit eu odio vitae tristique. Eget sit urna imperdiet
+                id. Lorem ipsum dolor sit amet,
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </div>
       </div>
+
+      {
+        // Footer
+      }
+      <Footer />
     </div>
   );
 };

@@ -61,7 +61,7 @@ function NavBar() {
                 fontStyle: "normal",
                 lineHeight: 21,
               }}
-              href="/menu"
+              href="/about"
             >
               Menu
             </Nav.Link>
@@ -77,7 +77,7 @@ function NavBar() {
                 fontStyle: "normal",
                 lineHeight: 21,
               }}
-              href="/menu"
+              href="/blog"
             >
               Menu
             </Nav.Link>
