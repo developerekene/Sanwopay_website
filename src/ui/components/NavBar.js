@@ -82,6 +82,22 @@ function NavBar() {
               Menu
             </Nav.Link>
           </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              style={{
+                textDecoration: "none",
+                color: "#000000",
+                fontWeight: 500,
+                fontSize: 18,
+                fontFamily: "Work Sans",
+                fontStyle: "normal",
+                lineHeight: 21,
+              }}
+              href="/articles"
+            >
+              Menu
+            </Nav.Link>
+          </Nav.Item>
         </Nav>
       </div>
 

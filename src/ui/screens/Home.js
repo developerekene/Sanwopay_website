@@ -383,11 +383,6 @@ export const Home = () => {
           </Accordion>
         </div>
       </div>
-
-      {
-        // Footer
-      }
-      <Footer />
     </div>
   );
 };
