@@ -1,0 +1,36 @@
+body{
+    background-color: "#ffffff";
+}
+.homeMainContainer{
+    display: flex;
+    margin-top: 95px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.headerTitle{
+    font-size: 48px;
+    padding-right: 200px;
+    font-weight: 500;
+    font-family: "work Sans";
+    font-style: normal;
+}
+
+.headerParagraph{
+    font-size: 18px;
+    padding-right: 200px;
+    font-weight: 900;
+    font-family:'Work Sans';
+    font-style: normal;
+    margin-bottom: 45px;
+    margin-top: 24px;
+}
+
+.baseButton{
+    padding: 10px;
+    width: 182px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}

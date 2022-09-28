@@ -12,6 +12,7 @@ export default function About() {
           padding: 100,
           justifyContent: "center",
           height: 200,
+          fontFamily: "Poppins"
         }}
       >
         <p
@@ -25,7 +26,7 @@ export default function About() {
         >
           About Us
         </p>
-        <p style={{ textAlign: "center" }}>
+        <p style={{ textAlign: "center", fontFamily: "Work Sans"}}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
           venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
         </p>
@@ -37,6 +38,7 @@ export default function About() {
           paddingRight: 100,
           marginTop: 85,
           marginBottom: 100,
+          fontFamily: "Work Sans"
         }}
       >
         <div>
@@ -66,6 +68,7 @@ export default function About() {
           paddingRight: 100,
           marginTop: 85,
           marginBottom: 100,
+          fontFamily: "Work Sans"
         }}
       >
         <div style={{ paddingRight: 300 }}>
@@ -110,13 +113,14 @@ export default function About() {
         </div>
       </div>
       <div style={{ marginBottom: 64 }}>
-        <h2 style={{ textAlign: "center" }}>Our Services</h2>
+        <h2 style={{ textAlign: "center", fontFamily: "Work Sans" }}>Our Services</h2>
         <p
           style={{
             textAlign: "center",
             paddingRight: 329,
             paddingLeft: 329,
             paddingTop: 20,
+            fontFamily: "Work Sans"
           }}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
@@ -130,6 +134,7 @@ export default function About() {
             marginLeft: 120,
             marginRight: 120,
             marginBottom: 20,
+            fontFamily: "Work Sans"
           }}
         >
           <div
@@ -178,6 +183,7 @@ export default function About() {
               borderRadius: 20,
               paddingLeft: 40,
               paddingTop: 48,
+              fontFamily: "Work Sans"
             }}
           >
             <Image src={require("../../images/services.png")} />
@@ -206,6 +212,7 @@ export default function About() {
               borderRadius: 20,
               paddingLeft: 40,
               paddingTop: 48,
+              fontFamily: "Work Sans"
             }}
           >
             <Image src={require("../../images/services.png")} />
@@ -225,6 +232,7 @@ export default function About() {
               borderRadius: 20,
               paddingLeft: 40,
               paddingTop: 48,
+              fontFamily: "Work Sans"
             }}
           >
             <Image src={require("../../images/services.png")} />
@@ -238,13 +246,14 @@ export default function About() {
         </div>
       </div>
       <div style={{ marginBottom: 64 }}>
-        <h2 style={{ textAlign: "center" }}>Our Team</h2>
+        <h2 style={{ textAlign: "center", fontFamily: "Work Sans"}}>Our Team</h2>
         <p
           style={{
             textAlign: "center",
             paddingRight: 329,
             paddingLeft: 329,
             paddingTop: 20,
+            fontFamily: "Work Sans"
           }}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
@@ -259,6 +268,7 @@ export default function About() {
             marginRight: 120,
             marginBottom: 20,
             justifyContent: "center",
+            fontFamily: "Work Sans"
           }}
         >
           <div
@@ -363,6 +373,7 @@ export default function About() {
             marginLeft: 120,
             marginRight: 120,
             marginBottom: 100,
+            fontFamily: "Work Sans"
             // justifyContent: "center",
           }}
         >
@@ -441,7 +452,8 @@ export default function About() {
           display: "flex",
           justifyContent: 'space-between',
           alignItems: 'center',
-          padding: 58
+          padding: 58,
+          fontFamily: "Work Sans"
         }}
       >
         <div>
