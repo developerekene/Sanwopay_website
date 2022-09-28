@@ -2,7 +2,6 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Footer from "../components/Footer";
 
 export default function BlogPage() {
   return (
