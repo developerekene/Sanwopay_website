@@ -5,12 +5,13 @@ export default function () {
   return (
     <div
       style={{
-        backgroundColor: "#C4C4C4",
+        backgroundColor: "#000000",
         height: 383,
         paddingLeft: 100,
         paddingRight: 100,
         alignItems: "center",
-        fontFamily: "Work Sans"
+        fontFamily: "Work Sans",
+        color: '#ffffff'
       }}
     >
       <div style={{ paddingTop: 72, display: "flex", justifyContent: "space-between" }}>

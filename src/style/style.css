@@ -1,36 +1,293 @@
-body{
-    background-color: "#ffffff";
+body {
+  background-color: "#ffffff";
 }
-.homeMainContainer{
-    display: flex;
-    margin-top: 95px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.headerTitle{
-    font-size: 48px;
-    padding-right: 200px;
-    font-weight: 500;
-    font-family: "work Sans";
-    font-style: normal;
+/* Nav bar links */
+.navBar {
+  display: flex;
+  font-family: "sans-serif";
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  align-items: center;
+  height: 100px;
+  background-color: #000000;
 }
 
-.headerParagraph{
-    font-size: 18px;
-    padding-right: 200px;
-    font-weight: 900;
-    font-family:'Work Sans';
-    font-style: normal;
-    margin-bottom: 45px;
-    margin-top: 24px;
+.navMain {
+  display: flex;
+  gap: 48px;
 }
 
-.baseButton{
-    padding: 10px;
-    width: 182px;
-    height: 64px;
-    border-radius: 8px;
-    background-color: black;
+.navBarLogo {
+  height: 90px;
+  width: 90px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: yellow;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: "Work Sans";
+  font-style: normal;
+  line-height: 21;
+}
+
+.navLink:hover {
+  color: #ffffff;
+}
+
+.buttonNav {
+  background-color: yellow;
+  padding: 10px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 900px;
+  font-size: 18px;
+  font-family: "Work Sans";
+  font-style: "normal";
+}
+
+.buttonNav:hover {
+  background-color: blue;
+  color: #ffffff;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.homeMainContainer {
+  display: flex;
+  margin-top: 95px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.headerTitle {
+  font-size: 48px;
+  padding-right: 100px;
+  font-weight: 500;
+  font-family: "work Sans";
+  font-style: normal;
+  color: #000000;
+}
+
+.headerParagraph {
+  font-size: 18px;
+  /* padding-right: 200px; */
+  font-family: "Work Sans";
+  font-style: normal;
+  margin-bottom: 45px;
+  margin-top: 24px;
+  /* background-color: green; */
+}
+
+.baseButton {
+  padding: 10px;
+  width: 182px;
+  height: 64px;
+  border-radius: 8px;
+  border-width: 1px;
+  background-color: yellow;
+  color: black;
+}
+
+.baseButton:hover {
+  background-color: #000000;
+  color: white;
+  transition: 2s;
+}
+
+.whySanwoPay {
+  background-color: #c6b407;
+  height: 527px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Work Sans";
+  align-items: center;
+}
+
+.whySanwoPayh1 {
+  padding-top: 64px;
+  text-align: center;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.whySanwoPayP {
+  text-align: center;
+  font-size: 16;
+  font-weight: 400;
+  margin-bottom: 64px;
+}
+
+.divList {
+  display: flex;
+}
+
+.divListP {
+  margin-right: 100px;
+  font-weight: 400;
+}
+
+.divImageText {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  font-family: "Work Sans";
+  margin-bottom: 96px;
+  padding-top: 100;
+}
+
+.divImageTextInner {
+  margin-top: 120px;
+  margin-left: 122px;
+  margin-right: 122px;
+}
+
+.works {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-family: "Work Sans";
+}
+
+.worksh1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.worksImage {
+  display: flex;
+  justify-content: center;
+}
+
+.worksh3 {
+  text-align: center;
+}
+
+.worksP {
+  font-weight: 400;
+  text-align: center;
+}
+
+.vidDiv {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Work Sans";
+}
+
+.vidDivImage {
+  justify-content: center;
+  display: flex;
+}
+
+.vidAppDownload {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.appContent {
+  background-color: #c4c4c4;
+  margin-right: 16px;
+  width: 225px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.appContentImage {
+  border-radius: 10px;
+  width: 38px;
+  height: 37px;
+  margin-right: 5px;
+  margin-left: 17px;
+}
+
+.divText {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.testimonal {
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #06039f;
+  display: flex;
+  margin-top: 200px;
+  height: 344px;
+  align-items: center;
+  font-family: "Work Sans";
+  color: #ffffff;
+}
+
+.testimonalImage {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonalP {
+  font-size: 24px;
+  font-weight: 400;
+  padding-right: 115px;
+}
+
+.testimonalP2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: yellow;
+}
+
+.testimonalSideDiv {
+  display: flex;
+}
+
+.testimonalSideDivImage {
+  margin-top: -90px;
+  margin-right: 20px;
+}
+
+.testimonalSideDiv2 {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.faq {
+  display: flex;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top: 100px;
+  justify-content: "space-between";
+  margin-bottom: 120px;
+}
+
+.faqText {
+  text-align: left;
+  width: 700px;
+  padding-left: 100px;
+}
+
+.faqButton{
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    border-width: 0px;
+    color: #000000;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.faqButton:hover{
+    background-color: #000000;
     color: white;
 }
