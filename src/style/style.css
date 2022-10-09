@@ -1,7 +1,9 @@
 body {
+  box-sizing: border-box;
   background-color: "#ffffff";
 }
-/* Nav bar links */
+
+/* ---------------------------------------------NAVBAR---------------------------------------------- */
 .navBar {
   display: flex;
   font-family: "sans-serif";
@@ -11,12 +13,15 @@ body {
   padding-top: 10px;
   align-items: center;
   height: 100px;
+  width: "100%";
   background-color: #000000;
 }
 
 .navMain {
   display: flex;
   gap: 48px;
+  overflow: hidden;
+  position: relative;
 }
 
 .navBarLogo {
@@ -57,6 +62,11 @@ body {
   cursor: pointer;
 }
 
+.menuBtn {
+  display: none;
+}
+
+/* ---------------------------------------------HOME---------------------------------------------- */
 .homeMainContainer {
   display: flex;
   margin-top: 95px;
@@ -153,6 +163,12 @@ body {
   padding-right: 100px;
   padding-top: 50px;
   font-family: "Work Sans";
+}
+
+.worksMainDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .worksh1 {
@@ -276,18 +292,407 @@ body {
   padding-left: 100px;
 }
 
-.faqButton{
+.faqButton {
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  border-width: 0px;
+  color: #000000;
+  border-width: 1px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.faqButton:hover {
+  background-color: #000000;
+  color: white;
+}
+
+/* -----------------------------------------FOOTER------------------------------------------ */
+.footerMainDiv{
+    background-color: #000000;
+    height: 383px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    font-family: "Work Sans";
+    height: auto;
+    color: #ffffff;
+}
+
+.footerInnerDiv{
+    padding-top: 72px;
+    display: flex;
+    justify-content: "space-between";
+}
+
+.footerInnerDivP{
+    padding-right: 600px;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: "space-between"
+}
+
+.footerContentUl{
+    list-style: none
+}
+
+.footerContentCopywrite{
+    display: flex;
+    justify-content: "space-between" 
+}
+
+.footerContentTerms{
+    display: flex;
+    justify-content: "space-between"
+}
+
+.footerContentTermsP{
+    margin-right: 50px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* -----------------------------------RESPONSIVENESS MOBILE----------------------------------- */
+@media only screen and (max-width: 600px) {
+  body {
+    box-sizing: border-box;
+    background-color: "#ffffff";
+  }
+
+  .navBar {
+    padding-left: 0px;
+    padding-right: 30px;
+    display: flex;
+  }
+
+  .navMain {
+    display: none;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .buttonNav {
+    display: none;
+  }
+
+  .menuBtn {
+    display: block;
+    float: right;
+  }
+
+  /* --------HOME--------- */
+  .homeMainContainer {
+    display: block;
+    width: auto;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .headerTitle {
+    margin: 0;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    width: auto;
+    font-weight: 800;
+  }
+
+  .topImage {
+    width: 100%;
+  }
+
+  .baseButton {
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border-width: 1px;
+    background-color: yellow;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .whySanwoPay {
+    background-color: #c6b407;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Work Sans";
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .whySanwoPayh1 {
+    padding-top: 64px;
+    text-align: center;
+    font-family: "Work Sans";
+    font-weight: 800;
+    font-size: 38px;
+  }
+  
+  .whySanwoPayP {
+    text-align: center;
+    font-size: 16;
+    font-weight: 400;
+    margin-bottom: 64px;
+  }
+
+  .divList{
+    display: block;
+    text-align: center;
+  }
+
+  .divListP {
+    margin-right: 0px;
+    font-weight: 400;
+  }
+
+  .divImageText {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    font-family: "Work Sans";
+    margin-bottom: 12px;
+  }
+  
+  .divImageTextInner {
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    
+  }
+  .divImageImage{
+    width: 100%;
+    height: auto
+  }
+
+  .works {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    font-family: "Work Sans";
+    padding-bottom: 20px;
+  }
+  
+  .worksh1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .worksMainDiv{
+    display: block;
+    align-content: center;
+}
+  
+  .worksImage {
+    display: flex;
+    justify-content: center;
+  }
+
+  .worksImageImg{
+    width: auto;
+    height: auto;
+  }
+  
+  .worksh3 {
+    text-align: center;
+  }
+  
+  .worksP {
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .vidDiv {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Work Sans";
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .vidDivImage {
+    justify-content: center;
+    display: flex;
+  }
+  
+  .vidAppDownload {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .vidDivImageMain{
+    width: 100%;
+  }
+
+  .appContent {
+    background-color: #c4c4c4;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    padding-right: 1rem;
+    margin-bottom: 20px;
+    margin-left: 12px;
+  }
+  
+  .appContentImage {
+    border-radius: 10px;
+    width: 38px;
+    height: 37px;
+    margin-right: 5px;
+    margin-left: 17px;
+  }
+
+
+  .divText {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .testimonal {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #06039f;
+    display: block;
+    margin-top: 100px;
+    height: auto;
+    align-items: center;
+    font-family: "Work Sans";
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .testimonalImageMain{
+    display: none;
+  }
+  
+  .testimonalImage {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonalP {
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 0px;
+  }
+  
+  .testimonalP2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: yellow;
+  }
+  
+  .testimonalSideDiv {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+  }
+  
+  .testimonalSideDivImage {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  /* .testimonalSideDiv2 {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .faq {
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 80px;
+    justify-content: "space-between";
+    margin-bottom: 80px;
+  }
+
+  .faqImage{
+    width: 100%;
+  }
+  
+  .faqText {
+    text-align: left;
+    padding: 0px;
+    width: 100%;
+  }
+  
+  .faqButton {
     height: 50px;
     width: 100%;
     background-color: #ffffff;
-    border-width: 0px;
     color: #000000;
     border-width: 1px;
     border-radius: 20px;
     margin-bottom: 10px;
-}
-
-.faqButton:hover{
+  }
+  
+  .faqButton:hover {
     background-color: #000000;
     color: white;
+  }
+
+    /* --------FOOTER--------- */
+
+  .footerMainDiv{
+    background-color: #000000;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    font-family: "Work Sans";
+    height: auto;
+    color: #ffffff;
+    padding-bottom: 15px;
 }
+
+.footerInnerDiv{
+    padding-top: 72px;
+    display: block;
+    justify-content: "space-between";
+}
+
+.footerInnerDivP{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: "space-between"
+}
+
+.footerContentUl{
+    list-style: none
+}
+
+.footerContentCopywrite{
+    display: block;
+    text-align: center;
+    justify-content: "space-between" 
+}
+
+.footerContentTerms{
+    display: block;
+    text-align: center;
+}
+
+}
+
+/* ------------------------------------------------------------------------------------------- */

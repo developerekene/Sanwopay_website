@@ -1,8 +1,24 @@
 import * as React from "react";
 import Nav from "react-bootstrap/Nav";
 import { Button, Image } from "react-bootstrap";
+import {IoMenu} from "react-icons/io5";
 
 function NavBar() {
+
+  const [widthMobile, setWidthMobile] = React.useState("none");
+  
+
+  function toogleMenu() {
+    const navLink = document.getElementsByClassName("navMain");
+    if (navLink.style.display === widthMobile) {
+      setWidthMobile('block');
+      alert("if statement")
+    } else {
+      setWidthMobile('none');
+      alert(" else statement")
+    }
+  }
+
   return (
     <div className="navBar">
       <div >
@@ -50,6 +66,12 @@ function NavBar() {
         <Button className="buttonNav" variant="outline-secondary">
           Download App
         </Button>
+      </div>
+      <div className="menuBtn">
+        <button onClick={toogleMenu}>
+        <IoMenu style={{color: "blue"}}/>
+        </button>
+        
       </div>
     </div>
   );

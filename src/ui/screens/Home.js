@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
-import Accordion from "react-bootstrap/Accordion";
-import Collapse from "react-bootstrap/Collapse";
-import Footer from "../components/Footer";
 
 export const Home = () => {
   //State
@@ -60,7 +57,7 @@ export const Home = () => {
         </div>
 
         <div>
-          <Image src={require("../../images/bustoon.jpeg")} />
+          <Image className="topImage" src={require("../../images/bustoon.jpeg")} />
         </div>
       </div>
       {
@@ -107,7 +104,7 @@ export const Home = () => {
       }
       <div className="divImageText">
         <div>
-          <Image src={require("../../images/Rectangle5.png")} />
+          <Image className="divImageImage" src={require("../../images/Rectangle5.png")} />
         </div>
         <div className="divImageTextInner">
           <h1>Lorem ipsum dolor sit amet, consectetur</h1>
@@ -135,7 +132,7 @@ export const Home = () => {
           </p>
         </div>
         <div>
-          <Image src={require("../../images/Rectangle5.png")} />
+          <Image className="divImageImage" src={require("../../images/Rectangle5.png")} />
         </div>
       </div>
       {
@@ -143,16 +140,10 @@ export const Home = () => {
       }
       <div className="works">
         <h1 className="worksh1">How it works</h1>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+        <div className="worksMainDiv">
           <div>
             <div className="worksImage">
-              <Image src={require("../../images/Rectanglec.png")} />
+              <Image className="worksImageImg" src={require("../../images/Rectanglec.png")} />
             </div>
 
             <h3 className="worksh3">How It Work</h3>
@@ -190,7 +181,7 @@ export const Home = () => {
           venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
         </p>
         <div className="vidDivImage">
-          <Image src={require("../../images/Rectangleb.png")} />
+          <Image className="vidDivImageMain" src={require("../../images/Rectangleb.png")} />
         </div>
         <div className="vidAppDownload">
           <div className="appContent">
@@ -217,7 +208,7 @@ export const Home = () => {
       </div>
       <div className="testimonal">
         <div className="testimonalImage">
-          <Image src={require("../../images/Rectangled.png")} />
+          <Image className="testimonalImageMain" src={require("../../images/Rectangled.png")} />
         </div>
         <div>
           <p className="testimonalP">
@@ -235,12 +226,12 @@ export const Home = () => {
           />
         </div>
         <div className="testimonalSideDiv2">
-          <Image src={require("../../images/Rectangled.png")} />
+          <Image className="testimonalImageMain" src={require("../../images/Rectangled.png")} />
         </div>
       </div>
       <div className="faq">
         <div>
-          <Image src={require("../../images/Rectanglee.png")} />
+          <Image className="faqImage" src={require("../../images/Rectanglee.png")} />
         </div>
         <div className="faqText">
           <h2>FAQ's</h2>
