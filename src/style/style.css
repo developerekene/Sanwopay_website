@@ -366,6 +366,203 @@ body {
   margin-right: 50px;
 }
 
+/* -----------------------------------------ABOUT------------------------------------------ */
+
+.aboutDiv {
+  background-color: #c4c4c4;
+  padding: 100px;
+  justify-content: center;
+  height: 200px;
+  font-family: "Poppins";
+}
+
+.aboutDivP {
+  text-align: center;
+  font-style: normal;
+  font-size: 48px;
+  font-family: 500;
+  font-family: "Poppins";
+}
+
+.aboutDivPTwo {
+  text-align: center;
+  font-family: "Work Sans";
+}
+
+.aboutDivOne {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 85px;
+  margin-bottom: 100px;
+  font-family: "Work Sans";
+}
+
+.aboutDivOneP {
+  padding-right: 300px;
+}
+
+.aboutBtn {
+  padding: 10px;
+  width: 183px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 115px;
+  font-family: "Poppins";
+}
+
+.aboutDivTwo {
+  margin-bottom: 64px;
+}
+
+.aboutDivTwoHtwo {
+  text-align: center;
+  font-family: "Work Sans";
+}
+
+.aboutDivTwoP {
+  text-align: center;
+  padding-right: 329px;
+  padding-left: 329px;
+  padding-top: 20px;
+  font-family: "Work Sans";
+}
+
+.aboutDivThree {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 20px;
+  font-family: "Work Sans";
+}
+
+.aboutDivThreeInner {
+  background-color: #c4c4c4;
+  width: 387px;
+  height: 389px;
+  margin-right: 20px;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-top: 48px;
+}
+
+.aboutDivThreeInnerP {
+  padding-right: 100px;
+}
+
+.aboutFour {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 100px;
+}
+
+.aboutFourInner {
+  background-color: #c4c4c4;
+  width: 347px;
+  height: 349px;
+  margin-right: 20px;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-top: 48px;
+  font-family: "Work Sans";
+}
+
+.aboutDivFive {
+  margin-bottom: 64px;
+}
+
+.aboutDivFiveHtwo {
+  text-align: center;
+  font-family: "Work Sans";
+}
+
+.aboutDivFiveP {
+  text-align: center;
+  padding-right: 329px;
+  padding-left: 329px;
+  padding-top: 20px;
+  font-family: "Work Sans";
+}
+
+.aboutDivSix {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 20px;
+  justify-content: center;
+  font-family: "Work Sans";
+}
+
+.aboutDivSixInner {
+  align-items: center;
+  background-color: #c4c4c4;
+  width: 387px;
+  height: 289px;
+  margin-right: 20px;
+  border-radius: 20px;
+  padding-top: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+.aboutDivSixInnerInner {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutDivSixInnerH {
+  text-align: center;
+}
+
+.aboutDivSixImage {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutDivSixImageMain {
+  margin-right: 15px;
+}
+
+.aboutBase {
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 146px;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: "space-between";
+  align-items: "center";
+  padding: 58px;
+  font-family: "Work Sans";
+}
+
+.aboutBaseInner {
+  display: flex;
+}
+
+.aboutForm {
+  width: 505px;
+  height: 87px;
+  border-radius: 20px;
+  padding-left: 20;
+}
+
+.aboutBaseBtn {
+  padding: 10px;
+  width: 180px;
+  height: 92px;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 10px;
+  margin-left: -30px;
+}
+
 /* -----------------------------------------ARTICLES------------------------------------------ */
 .aritcleDiv {
   margin-top: 117px;
@@ -890,53 +1087,244 @@ body {
     color: white;
   }
 
+  /* --------ABOUT--------- */
+  .aboutDiv {
+    background-color: #000000;
+    padding: 20px;
+    justify-content: center;
+    height: auto;
+    font-family: "Poppins";
+    color: #ffffff;
+  }
+  
+  .aboutDivP {
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+    font-family: 500;
+    font-family: "Poppins";
+  }
+  
+  .aboutDivPTwo {
+    text-align: center;
+    font-family: "Work Sans";
+  }
+  
+  .aboutDivOne {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 55px;
+    margin-bottom: 100px;
+    font-family: "Work Sans";
+  }
+  
+  .aboutDivOneP {
+    padding-right: 0px;
+  }
+  
+  .aboutBtn {
+    padding: 10px;
+    width: 183px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 115px;
+    font-family: "Poppins";
+  }
+  
+  .aboutDivTwo {
+    margin-bottom: 64px;
+  }
+  
+  .aboutDivTwoHtwo {
+    text-align: center;
+    font-family: "Work Sans";
+  }
+  
+  .aboutDivTwoP {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: "Work Sans";
+  }
+  
+  .aboutDivThree {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Work Sans";
+    margin-bottom: 20px;
+  }
+  
+  .aboutDivThreeInner {
+    background-color: #c4c4c4;
+    width: 95%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .aboutDivThreeInnerP {
+    padding-right: 20px;
+  }
+  
+  .aboutFour {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .aboutFourInner {
+    background-color: #c4c4c4;
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    font-family: "Work Sans";
+  }
+  
+  .aboutDivFive {
+    margin-bottom: 64px;
+  }
+  
+  .aboutDivFiveHtwo {
+    text-align: center;
+    font-family: "Work Sans";
+  }
+  
+  .aboutDivFiveP {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Work Sans";
+  }
+  
+  .aboutDivSix {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: "Work Sans";
+  }
+  
+  .aboutDivSixInner {
+    align-items: center;
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 289px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding-top: 48px;
+    justify-content: center;
+  }
+  
+  .aboutDivSixInnerInner {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .aboutDivSixInnerH {
+    text-align: center;
+  }
+  
+  .aboutDivSixImage {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .aboutDivSixImageMain {
+    margin-right: 15px;
+  }
+  
+  .aboutBase {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: auto;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    display: block;
+    justify-content: "space-between";
+    align-items: "center";
+    padding: 58px;
+    font-family: "Work Sans";
+  }
+  
+  .aboutBaseInner {
+    display: flex;
+  }
+  
+  .aboutForm {
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 60;
+  }
+  
+  .aboutBaseBtn {
+    padding: 10px;
+    width: 90px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-right: 10px;
+    margin-left: -30px;
+  }
   /* --------ARTICLE--------- */
 
   .aritcleDiv {
     margin-top: 50px;
   }
-  
+
   .aritcleDivP {
     text-align: center;
     font-size: 30px;
     font-family: "Poppins";
     font-weight: 500;
   }
-  
+
   .aritcleDivInner {
     display: block;
     justify-content: center;
   }
 
-  .aritcleDivInnerImage{
+  .aritcleDivInnerImage {
     width: 100%;
   }
-  
+
   .aritcleDivInnerTwo {
     display: flex;
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
   }
-  
+
   .aritcleDivInnerTwoP {
     font-size: 20px;
     font-weight: 400;
     font-family: "Poppins";
   }
-  
+
   .aritcleDivInnerThree {
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
     font-family: "Poppins";
   }
-  
+
   .aritcleDivInnerThreeP {
     font-size: 20px;
     font-weight: 400;
   }
-  
+
   .aritcleDivInnerFour {
     display: flex;
     justify-content: "space-between";
@@ -945,15 +1333,15 @@ body {
     align-items: center;
     font-family: "Poppins";
   }
-  
+
   .aritcleDivInnerFive {
     display: "flex";
   }
-  
+
   .aritcleDivInnerFiveImage {
     margin-right: 10px;
   }
-  
+
   .divDown {
     justify-content: "space-between";
     margin-left: 20px;
@@ -961,13 +1349,13 @@ body {
     align-items: center;
     font-family: "Poppins";
   }
-  
+
   .label {
     width: 100%;
     height: 154px;
     margin-bottom: 40px;
   }
-  
+
   .articleBtn {
     padding: 10px;
     width: 183px;
