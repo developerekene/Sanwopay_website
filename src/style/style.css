@@ -14,7 +14,7 @@ body {
   align-items: center;
   height: 100px;
   width: "100%";
-  background-color: #000000;
+  background-color: #06039f;
 }
 
 .navMain {
@@ -29,9 +29,13 @@ body {
   width: 90px;
 }
 
+.secondNav{
+  display: none;
+}
+
 .navLink {
   text-decoration: none;
-  color: yellow;
+  color: #ffffff;
   font-weight: 900;
   font-size: 18px;
   font-family: "Work Sans";
@@ -99,8 +103,9 @@ body {
   height: 64px;
   border-radius: 8px;
   border-width: 1px;
-  background-color: yellow;
-  color: black;
+  background-color: #06039f;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .baseButton:hover {
@@ -110,12 +115,13 @@ body {
 }
 
 .whySanwoPay {
-  background-color: #c6b407;
+  background-color: #06039f;
   height: 527px;
   padding-left: 100px;
   padding-right: 100px;
   font-family: "Work Sans";
   align-items: center;
+  color: #ffffff;
 }
 
 .whySanwoPayh1 {
@@ -165,10 +171,10 @@ body {
   font-family: "Work Sans";
 }
 
-.worksMainDiv{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.worksMainDiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .worksh1 {
@@ -209,10 +215,13 @@ body {
   margin-top: 48px;
 }
 
+/* .vidDivImageMain{
+    width: 100%;
+} */
+
 .appContent {
-  background-color: #c4c4c4;
   margin-right: 16px;
-  width: 225px;
+  width: 100%;
   height: 70px;
   display: flex;
   align-items: center;
@@ -221,8 +230,8 @@ body {
 
 .appContentImage {
   border-radius: 10px;
-  width: 38px;
-  height: 37px;
+  width: 100%;
+  height: 200px;
   margin-right: 5px;
   margin-left: 17px;
 }
@@ -269,6 +278,8 @@ body {
 .testimonalSideDivImage {
   margin-top: -90px;
   margin-right: 20px;
+  width: 500px;
+  height: 400px;
 }
 
 .testimonalSideDiv2 {
@@ -309,69 +320,219 @@ body {
 }
 
 /* -----------------------------------------FOOTER------------------------------------------ */
-.footerMainDiv{
-    background-color: #000000;
-    height: 383px;
-    padding-left: 100px;
-    padding-right: 100px;
-    align-items: center;
-    font-family: "Work Sans";
-    height: auto;
-    color: #ffffff;
+.footerMainDiv {
+  background-color: #06039f;
+  height: 383px;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+  font-family: "Work Sans";
+  height: auto;
+  color: #ffffff;
 }
 
-.footerInnerDiv{
-    padding-top: 72px;
-    display: flex;
-    justify-content: "space-between";
+.footerInnerDiv {
+  padding-top: 72px;
+  display: flex;
+  justify-content: "space-between";
 }
 
-.footerInnerDivP{
-    padding-right: 600px;
+.footerInnerDivP {
+  padding-right: 600px;
 }
 
-.footerContent{
-    display: flex;
-    justify-content: "space-between"
+.footerContent {
+  display: flex;
+  justify-content: "center";
 }
 
-.footerContentUl{
-    list-style: none
+.footerContentUl {
+  list-style: none;
 }
 
-.footerContentCopywrite{
-    display: flex;
-    justify-content: "space-between" 
+.footerContentCopywrite {
+  display: flex;
+  justify-content: "space-between";
 }
 
-.footerContentTerms{
-    display: flex;
-    justify-content: "space-between"
+.footerContentTerms {
+  display: flex;
+  justify-content: "space-between";
 }
 
-.footerContentTermsP{
-    margin-right: 50px;
+.footerContentTermsP {
+  margin-right: 50px;
+}
+
+/* -----------------------------------------BLOG------------------------------------------ */
+.blogSecondDiv {
+  background-color: #06039f;
+  padding: 100px;
+  justify-content: center;
+  height: 200px;
+  color: #ffffff;
+}
+
+.blogSecondDivP {
+  text-align: center;
+  font-size: normal;
+  font-size: 48px;
+  font-family: Poppins;
+}
+
+.blogSecondDivPtwo {
+  text-align: center;
+}
+
+.leftDiv {
+  display: flex;
+  justify-content: "space-between";
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.leftDivImage {
+  width: 600px;
+}
+
+.leftDivImageMain {
+  width: 600px;
+}
+
+.leftDivTwo {
+  display: flex;
+  justify-content: "space-between";
+  margin-top: 20px;
+}
+
+.leftDivThree {
+  display: flex;
+  justify-content: "space-between";
+  align-items: center;
+}
+
+.leftDivFour {
+  display: flex;
+  justify-content: "space-between";
+  align-items: center;
+}
+
+.leftDivSix {
+  display: flex;
+  justify-content: "space-between";
+  margin-bottom: 30px;
+}
+
+.leftDivSeven {
+  display: flex;
+  justify-content: "space-between";
+  margin-bottom: 30px;
+}
+
+.divEight {
+  display: flex;
+  justify-content: "space-between";
+  margin-bottom: 30px;
+}
+
+.divNine {
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.divSeven {
+  display: flex;
+  justify-content: "space-between";
+  margin-bottom: 3px;
+}
+
+.divSix {
+  display: flex;
+  justify-content: "space-between";
+  margin-bottom: 30px;
+}
+
+.divFive {
+  display: flex;
+  justify-content: "space-between";
+  margin-bottom: 30px;
+}
+
+.divFour {
+  display: flex;
+  justify-content: "space-between";
+}
+
+.divFourButton {
+  padding: 10px;
+  width: 183px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.divP{
+  margin-left: 20px;
+}
+
+.divPTwo{
+  margin-left: 10px;
 }
 
 /* ------------------------------------------------------------------------------------------- */
 
-/* -----------------------------------RESPONSIVENESS MOBILE----------------------------------- */
+/* -----------------------------------RESPONSIVENESS-MOBILE----------------------------------- */
 @media only screen and (max-width: 600px) {
   body {
     box-sizing: border-box;
     background-color: "#ffffff";
   }
 
+  /* --------NAVBAR--------- */
   .navBar {
     padding-left: 0px;
     padding-right: 30px;
     display: flex;
+    background-color: #06039f;
   }
 
   .navMain {
     display: none;
     overflow: hidden;
     position: relative;
+    font-size: smaller;
+    gap: 2px;
+    margin-top: 200px;
+  }
+
+  .secondNav{
+    display: flex;
+    
+  }
+
+  .secondNavUl{
+    display: flex;
+    text-decoration: none;
+    gap: 12px;
+  }
+
+  .secondNav ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    
+  }
+
+  .secondNav ul li a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .navLink{
+    color: red;
   }
 
   .buttonNav {
@@ -379,7 +540,7 @@ body {
   }
 
   .menuBtn {
-    display: block;
+    display: none;
     float: right;
   }
 
@@ -413,21 +574,22 @@ body {
     height: 40px;
     border-radius: 8px;
     border-width: 1px;
-    background-color: yellow;
-    color: black;
+    background-color: #06039f;
+    color: #ffffff;
     margin-bottom: 20px;
   }
 
   .whySanwoPay {
-    background-color: #c6b407;
+    background-color: #06039f;
     height: auto;
     padding-left: 20px;
     padding-right: 20px;
     font-family: "Work Sans";
     align-items: center;
     padding-bottom: 20px;
+    color: #ffffff;
   }
-  
+
   .whySanwoPayh1 {
     padding-top: 64px;
     text-align: center;
@@ -435,7 +597,7 @@ body {
     font-weight: 800;
     font-size: 38px;
   }
-  
+
   .whySanwoPayP {
     text-align: center;
     font-size: 16;
@@ -443,7 +605,7 @@ body {
     margin-bottom: 64px;
   }
 
-  .divList{
+  .divList {
     display: block;
     text-align: center;
   }
@@ -461,17 +623,16 @@ body {
     font-family: "Work Sans";
     margin-bottom: 12px;
   }
-  
+
   .divImageTextInner {
     margin-top: 120px;
     margin-left: 20px;
     margin-right: 20px;
     width: auto;
-    
   }
-  .divImageImage{
+  .divImageImage {
     width: 100%;
-    height: auto
+    height: auto;
   }
 
   .works {
@@ -481,7 +642,7 @@ body {
     font-family: "Work Sans";
     padding-bottom: 20px;
   }
-  
+
   .worksh1 {
     text-align: center;
     margin-bottom: 30px;
@@ -489,25 +650,25 @@ body {
     font-weight: 400;
   }
 
-  .worksMainDiv{
+  .worksMainDiv {
     display: block;
     align-content: center;
-}
-  
+  }
+
   .worksImage {
     display: flex;
     justify-content: center;
   }
 
-  .worksImageImg{
+  .worksImageImg {
     width: auto;
     height: auto;
   }
-  
+
   .worksh3 {
     text-align: center;
   }
-  
+
   .worksP {
     font-weight: 400;
     text-align: center;
@@ -522,24 +683,23 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  
+
   .vidDivImage {
     justify-content: center;
     display: flex;
   }
-  
+
   .vidAppDownload {
     display: block;
     width: 100%;
     margin-top: 30px;
   }
 
-  .vidDivImageMain{
+  .vidDivImageMain {
     width: 100%;
   }
 
   .appContent {
-    background-color: #c4c4c4;
     width: auto;
     height: auto;
     justify-content: space-between;
@@ -547,21 +707,20 @@ body {
     margin-bottom: 20px;
     margin-left: 12px;
   }
-  
+
   .appContentImage {
     border-radius: 10px;
-    width: 38px;
-    height: 37px;
+    width: 100%;
+    height: 100px;
     margin-right: 5px;
     margin-left: 17px;
   }
-
 
   .divText {
     font-size: 20px;
     font-weight: 500;
   }
-  
+
   .testimonal {
     padding-right: 20px;
     padding-left: 20px;
@@ -575,44 +734,45 @@ body {
     text-align: center;
   }
 
-  .testimonalImageMain{
+  .testimonalImageMain {
     display: none;
   }
-  
+
   .testimonalImage {
     display: flex;
     align-items: center;
   }
-  
+
   .testimonalP {
     font-size: 24px;
     font-weight: 400;
     padding-right: 0px;
   }
-  
+
   .testimonalP2 {
     font-size: 32px;
     font-weight: 500;
     color: yellow;
   }
-  
+
   .testimonalSideDiv {
     display: flex;
     justify-content: center;
     background-color: green;
+    height: auto;
   }
-  
+
   .testimonalSideDivImage {
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 160px;
     display: none;
   }
-  
+
   /* .testimonalSideDiv2 {
     display: flex;
     align-items: center;
   } */
-  
+
   .faq {
     display: block;
     padding-right: 20px;
@@ -622,16 +782,16 @@ body {
     margin-bottom: 80px;
   }
 
-  .faqImage{
+  .faqImage {
     width: 100%;
   }
-  
+
   .faqText {
     text-align: left;
     padding: 0px;
     width: 100%;
   }
-  
+
   .faqButton {
     height: 50px;
     width: 100%;
@@ -641,16 +801,137 @@ body {
     border-radius: 20px;
     margin-bottom: 10px;
   }
-  
+
   .faqButton:hover {
     background-color: #000000;
     color: white;
   }
 
-    /* --------FOOTER--------- */
+  /* --------BLOG--------- */
 
-  .footerMainDiv{
-    background-color: #000000;
+  .blogSecondDiv {
+    background-color: #06039f;
+    padding: 20px;
+    justify-content: center;
+    height: auto;
+    color: #ffffff;
+  }
+  
+  .blogSecondDivP {
+    text-align: center;
+    font-size: normal;
+    font-size: px;
+    font-family: Poppins;
+  }
+  
+  .blogSecondDivPtwo {
+    text-align: center;
+  }
+  
+  .leftDiv {
+    display: block;
+    justify-content: "space-between";
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .leftDivImage {
+    width: 100%;
+  }
+  
+  .leftDivImageMain {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .leftDivTwo {
+    display: block;
+    justify-content: "space-between";
+    margin-top: 20px;
+  }
+  
+  .leftDivThree {
+    display: flex;
+    justify-content: "space-between";
+    align-items: center;
+  }
+  
+  .leftDivFour {
+    display: flex;
+    justify-content: "space-between";
+    align-items: center;
+  }
+  
+  .leftDivSix {
+    display: block;
+    justify-content: "space-between";
+    margin-bottom: 30px;
+  }
+  
+  .leftDivSeven {
+    display: block;
+    justify-content: "space-between";
+    margin-bottom: 30px;
+  }
+  
+  .divEight {
+    display: block;
+    justify-content: "space-between";
+    margin-bottom: 30px;
+  }
+  
+  .divNine {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .divSeven {
+    display: block;
+    justify-content: "space-between";
+    margin-bottom: 3px;
+  }
+  
+  .divSix {
+    display: block;
+    justify-content: "space-between";
+    margin-bottom: 30px;
+  }
+  
+  .divFive {
+    display: block;
+    justify-content: "space-between";
+    margin-bottom: 30px;
+  }
+  
+  .divFour {
+    display: block;
+    justify-content: "space-between";
+  }
+  
+  .divFourButton {
+    padding: 10px;
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .divP{
+    margin-left: 20px;
+  }
+  
+  .divPTwo{
+    margin-left: 10px;
+  }
+
+  /* --------FOOTER--------- */
+
+  .footerMainDiv {
+    background-color: #06039f;
     height: auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -659,40 +940,39 @@ body {
     height: auto;
     color: #ffffff;
     padding-bottom: 15px;
-}
+  }
 
-.footerInnerDiv{
+  .footerInnerDiv {
     padding-top: 72px;
     display: block;
     justify-content: "space-between";
-}
+  }
 
-.footerInnerDivP{
+  .footerInnerDivP {
     height: 100%;
     width: 100%;
     padding: 5px;
-}
+  }
 
-.footerContent{
+  .footerContent {
     display: flex;
-    justify-content: "space-between"
-}
+    justify-content: "space-between";
+  }
 
-.footerContentUl{
-    list-style: none
-}
+  .footerContentUl {
+    list-style: none;
+  }
 
-.footerContentCopywrite{
+  .footerContentCopywrite {
     display: block;
     text-align: center;
-    justify-content: "space-between" 
-}
+    justify-content: "space-between";
+  }
 
-.footerContentTerms{
+  .footerContentTerms {
     display: block;
     text-align: center;
-}
-
+  }
 }
 
 /* ------------------------------------------------------------------------------------------- */

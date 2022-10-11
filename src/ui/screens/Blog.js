@@ -6,72 +6,29 @@ import Form from "react-bootstrap/Form";
 export default function BlogPage() {
   return (
     <div>
-      <div
-        style={{
-          backgroundColor: "#C4C4C4",
-          padding: 100,
-          justifyContent: "center",
-          height: 200,
-        }}
-      >
-        <p
-          style={{
-            textAlign: "center",
-            fontStyle: "normal",
-            fontSize: 48,
-            fontFamily: "500",
-            fontFamily: "Poppins",
-          }}
-        >
+      <div className="blogSecondDiv">
+        <p className="blogSecondDivP">
           Blog & Newsletter
         </p>
-        <p style={{ textAlign: "center" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-          venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
+        <p className="blogSecondDivPtwo">
+          Welcome to our Blog section
         </p>
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          marginTop: 80,
-          marginLeft: 120,
-          marginRight: 120,
-          //   width: 200,
-        }}
-      >
-        <div style={{ width: 600 }}>
-          <Image width={600} src={require("../../images/Rectangleh.png")} />
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              marginTop: 20,
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-              }}
-            >
+      <div className="leftDiv">
+        <div className="leftDivImage">
+          <Image className="leftDivImageMain" src={require("../../images/Rectangleh.png")} />
+          <div className="leftDivTwo">
+            <div className="leftDivThree">
               <Image
                 width={50}
                 height={50}
                 src={require("../../images/Avatar.png")}
               />
-              <h3 style={{ marginLeft: 10 }}>Author Name</h3>
+              <h3 className="divPTwo">Author Name</h3>
             </div>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-              }}
-            >
+            <div className="leftDivFour">
               <Image src={require("../../images/Calandar.png")} />
-              <h3 style={{ marginLeft: 10 }}>08/04/2022</h3>
+              <h3 className="divPTwo">08/04/2022</h3>
             </div>
           </div>
           <div>
@@ -83,61 +40,43 @@ export default function BlogPage() {
               nisl aliquam. …
             </p>
           </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              marginBottom: 30,
-            }}
-          >
+          <div className="leftDivSix">
             <Image src={require("../../images/Rectangleg.png")} />
             <div>
-              <h1 style={{ marginLeft: 20 }}>Random Article Title</h1>
-              <p style={{ marginLeft: 20 }}>
+              <h1 className="divP">Random Article Title</h1>
+              <p className="divP">
                 Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum
                 dolor sit amet, consectetu
               </p>
-              <p style={{ marginLeft: 20 }}>Read More</p>
+              <p className="divP">Read More</p>
             </div>
           </div>
 
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              marginBottom: 30,
-            }}
-          >
-            <Image src={require("../../images/Rectangleg.png")} />
+          <div className="leftDivSeven">
+            <Image className="leftDivSevenImage" src={require("../../images/Rectangleg.png")} />
             <div>
-              <h1 style={{ marginLeft: 20 }}>Random Article Title</h1>
-              <p style={{ marginLeft: 20 }}>
+              <h1 className="divP">Random Article Title</h1>
+              <p className="divP">
                 Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum
                 dolor sit amet, consectetu
               </p>
-              <p style={{ marginLeft: 20 }}>Read More</p>
+              <p className="divP">Read More</p>
             </div>
           </div>
 
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              marginBottom: 30,
-            }}
-          >
+          <div className="divEight">
             <Image src={require("../../images/Rectangleg.png")} />
             <div>
-              <h1 style={{ marginLeft: 20 }}>Random Article Title</h1>
-              <p style={{ marginLeft: 20 }}>
+              <h1 className="divP">Random Article Title</h1>
+              <p className="divP">
                 Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum
                 dolor sit amet, consectetu
               </p>
-              <p style={{ marginLeft: 20 }}>Read More</p>
+              <p className="divP">Read More</p>
             </div>
           </div>
         </div>
-        <div style={{ paddingLeft: 50, paddingRight: 20 }}>
+        <div className="divNine">
           <div>
             <Form>
               <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -146,185 +85,82 @@ export default function BlogPage() {
             </Form>
             <h2>Most Popular</h2>
             <div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  marginBottom: 30,
-                }}
-              >
+              <div className="divSeven">
                 <Image src={require("../../images/Rectangleg.png")} />
                 <div>
-                  <h1 style={{ marginLeft: 20 }}>Random Article Title</h1>
-                  <p style={{ marginLeft: 20 }}>
+                  <h1 className="divP">Random Article Title</h1>
+                  <p className="divP">
                     Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum
                     dolor sit amet, consectetu
                   </p>
-                  <p style={{ marginLeft: 20 }}>Read More</p>
+                  <p className="divP">Read More</p>
                 </div>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  marginBottom: 30,
-                }}
-              >
+              <div className="divSix">
                 <Image src={require("../../images/Rectangleg.png")} />
                 <div>
-                  <h1 style={{ marginLeft: 20 }}>Random Article Title</h1>
-                  <p style={{ marginLeft: 20 }}>
+                  <h1 className="divP">Random Article Title</h1>
+                  <p className="divP">
                     Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum
                     dolor sit amet, consectetu
                   </p>
-                  <p style={{ marginLeft: 20 }}>Read More</p>
+                  <p className="divP">Read More</p>
                 </div>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  marginBottom: 30,
-                }}
-              >
+              <div className="divFive">
                 <Image src={require("../../images/Rectangleg.png")} />
                 <div>
-                  <h1 style={{ marginLeft: 20 }}>Random Article Title</h1>
-                  <p style={{ marginLeft: 20 }}>
+                  <h1 className="divP">Random Article Title</h1>
+                  <p className="divP">
                     Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum
                     dolor sit amet, consectetu
                   </p>
-                  <p style={{ marginLeft: 20 }}>Read More</p>
+                  <p className="divP">Read More</p>
                 </div>
               </div>
             </div>
           </div>
           <h3>Tags:</h3>
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <Button
-              style={{
-                padding: 10,
-                width: 183,
-                height: 64,
-                borderRadius: 8,
-                backgroundColor: "#ffffff",
-                color: "#000000",
-                marginRight: 10,
-              }}
-              variant="dark"
-            >
+          <div className="divFour">
+            <Button className="divFourButton" variant="dark">
               Savings
             </Button>
-            <Button
-              style={{
-                padding: 10,
-                width: 183,
-                height: 64,
-                borderRadius: 8,
-                backgroundColor: "#ffffff",
-                color: "#000000",
-                marginRight: 10,
-              }}
+            <Button className="divFourButton"
               variant="dark"
             >
               Finance
             </Button>
-            <Button
-              style={{
-                padding: 10,
-                width: 183,
-                height: 64,
-                borderRadius: 8,
-                backgroundColor: "#ffffff",
-                color: "#000000",
-              }}
+            <Button className="divFourButton"
               variant="dark"
             >
               Ideas
             </Button>
           </div>
-          <div style={{ display: "flex", justifyContent: "space-between", marginTop: 20 }}>
-            <Button
-              style={{
-                padding: 10,
-                width: 183,
-                height: 64,
-                borderRadius: 8,
-                backgroundColor: "#ffffff",
-                color: "#000000",
-                marginRight: 10,
-              }}
+          <div className="divFour">
+            <Button className="divFourButton"
               variant="dark"
             >
               Product
             </Button>
-            <Button
-              style={{
-                padding: 10,
-                width: 183,
-                height: 64,
-                borderRadius: 8,
-                backgroundColor: "#ffffff",
-                color: "#000000",
-                marginRight: 10,
-              }}
-              variant="dark"
+            <Button className="divFourButton" variant="dark"
             >
               Business
             </Button>
-            <Button
-              style={{
-                padding: 10,
-                width: 183,
-                height: 64,
-                borderRadius: 8,
-                backgroundColor: "#ffffff",
-                color: "#000000",
-              }}
-              variant="dark"
+            <Button className="divFourButton" variant="dark"
             >
               Strategy
             </Button>
           </div>
-          <div style={{ display: "flex", justifyContent: "space-between", marginTop: 20 }}>
-            <Button
-              style={{
-                padding: 10,
-                width: 183,
-                height: 64,
-                borderRadius: 8,
-                backgroundColor: "#ffffff",
-                color: "#000000",
-                marginRight: 10,
-              }}
-              variant="dark"
+          <div className="divFour">
+            <Button className="divFourButton" variant="dark"
             >
               Tips
             </Button>
-            <Button
-              style={{
-                padding: 10,
-                width: 183,
-                height: 64,
-                borderRadius: 8,
-                backgroundColor: "#ffffff",
-                color: "#000000",
-                marginRight: 10,
-              }}
-              variant="dark"
+            <Button className="divFourButton" variant="dark"
             >
               Advise
             </Button>
-            <Button
-              style={{
-                padding: 10,
-                width: 183,
-                height: 64,
-                borderRadius: 8,
-                backgroundColor: "#ffffff",
-                color: "#000000",
-              }}
-              variant="dark"
+            <Button className="divFourButton" variant="dark"
             >
               Marketing
             </Button>

@@ -11,31 +11,12 @@ export default function () {
             src={require("../../images/Rectanglef.png")}
           />
           <p className="footerInnerDivP">
-            Egestas venenatis velit eu odio vitae tristique. Eget sit urna
-            imperdiet id orem{" "}
+          A seamless way to pay for bus rides, goods, and services in the open market, pay that Boli seller along the road without cash.
           </p>
         </div>
         <div className="footerContent">
-          <div>
-            <h4>Company</h4>
-            <ul className="footerContentUl">
-              <li>About us</li>
-              <li>Blogs</li>
-              <li>Vendors</li>
-              <li>News Letters</li>
-            </ul>
-          </div>
-          <div>
-            <h4>Company</h4>
-            <ul className="footerContentUl">
-              <li>About us</li>
-              <li>Blogs</li>
-              <li>Vendors</li>
-              <li>News Letters</li>
-            </ul>
-          </div>
-          <div>
-            <h4>Company</h4>
+          <div style={{justifyContent: 'center'}}>
+            <h4 style={{textAlign: 'center'}}>Company</h4>
             <ul className="footerContentUl">
               <li>About us</li>
               <li>Blogs</li>

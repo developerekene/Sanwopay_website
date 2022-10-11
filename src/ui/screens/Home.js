@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
+import { AiOutlineUserAdd } from "react-icons/ai";
 
 export const Home = () => {
   //State
@@ -13,7 +14,7 @@ export const Home = () => {
     if (questionOne === "none") {
       setQuestionOne("block");
       setQuestionTwo("none");
-      setQuestionOneThree("none")
+      setQuestionOneThree("none");
     } else {
       setQuestionOne("none");
     }
@@ -23,7 +24,7 @@ export const Home = () => {
     if (questionTwo === "none") {
       setQuestionOne("none");
       setQuestionTwo("block");
-      setQuestionOneThree("none")
+      setQuestionOneThree("none");
     } else {
       setQuestionTwo("none");
     }
@@ -33,7 +34,7 @@ export const Home = () => {
     if (questionThree === "none") {
       setQuestionOne("none");
       setQuestionTwo("none");
-      setQuestionOneThree("block")
+      setQuestionOneThree("block");
     } else {
       setQuestionOneThree("none");
     }
@@ -43,21 +44,23 @@ export const Home = () => {
       <div className="homeMainContainer">
         <div>
           <h1 className="headerTitle">
-            Providing Finacial Services for small and medium Businesses
+            A financial service support system for Transport operators and
+            Shop-owners
           </h1>
           <p className="headerParagraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            A seamless way to pay for bus ride, goods and services in the open
+            market, pay that Boli seller along the road without cash.
           </p>
-          <Button className="baseButton" variant="dark">
+          <Button className="baseButton" variant="dark" href="https://play.google.com/store/apps/details?id=com.sanwopay">
             Get started
           </Button>
         </div>
 
         <div>
-          <Image className="topImage" src={require("../../images/bustoon.jpeg")} />
+          <Image
+            className="topImage"
+            src={require("../../images/bustoon.jpeg")}
+          />
         </div>
       </div>
       {
@@ -68,25 +71,24 @@ export const Home = () => {
           <h1 className="whySanwoPayh1">Why you should Sanwo Pay?</h1>
           <p className="whySanwoPayP">
             {
-              "Egestas Vensatis velit eu odio vitae tristique. \n Egit sit urna imperdiet id"
+              "At Sanwopay we are building a financial service support system for transport operators and their surrounding small business ecosystem, making it easy for them to receive payment, save money daily and get access to loans without leaving their motor parks or business location."
             }
           </p>
         </div>
         <div className="divList">
           <div>
             <h1>01</h1>
-            <h3>Guaranted Saftey</h3>
+            <h3>Secured Data</h3>
             <p className="divListP">
-              Egestas Vensatis velit eu odio vitae tristique. Egit sit urna
-              imperdiet id orem ipsum dolor sit.
+              Secured user's data with end-to-end encryption. Adhering to
+              International best practices.
             </p>
           </div>
           <div>
             <h1>02</h1>
-            <h3>Simple Interface</h3>
+            <h3>24/7 Customer Service</h3>
             <p className="divListP">
-              Egestas Vensatis velit eu odio vitae tristique. Egit sit urna
-              imperdiet id orem ipsum dolor sit.
+              Our helpdesks are always available 24/7 reach out for support.
             </p>
           </div>
           <div>
@@ -104,35 +106,41 @@ export const Home = () => {
       }
       <div className="divImageText">
         <div>
-          <Image className="divImageImage" src={require("../../images/Rectangle5.png")} />
+          <Image
+            className="divImageImage"
+            src={require("../../images/mobile-card-sanwopay.png")}
+          />
         </div>
         <div className="divImageTextInner">
-          <h1>Lorem ipsum dolor sit amet, consectetur</h1>
+          <h1>Exciting possibilities with Sanwopay</h1>
           <p>
-            Egestas venenatis velit eu odio vitae tristique. Eget sit urna
-            imperdiet id orem ipsum dolor sit
-          </p>
+          you can easily pay a busdriver/shop owner, save money daily, apply and get transport loan all in one place.</p>
           <p>
-            Egestas venenatis velit eu odio vitae tristique. Eget sit urna
-            imperdiet id orem ipsum dolor sit
+            <ul>
+              <li>Daily Savings</li>
+              <li>Cash in Cash out</li>
+              <li>Pay on the go</li>
+              <li>Loan</li>
+              <li>Charter a bus</li>
+              <li>get a transport loan</li>
+            </ul>
           </p>
         </div>
       </div>
 
       <div className="divImageText">
         <div className="divImageTextInner">
-          <h1>Lorem ipsum dolor sit amet, consectetur</h1>
+          <h1>Scan to pay at Merchant outlets.</h1>
           <p>
-            Egestas venenatis velit eu odio vitae tristique. Eget sit urna
-            imperdiet id orem ipsum dolor sit
+          merchants can use Sanwopay to receive payments from customers at check out points. its easy and faster.
           </p>
-          <p>
-            Egestas venenatis velit eu odio vitae tristique. Eget sit urna
-            imperdiet id orem ipsum dolor sit
-          </p>
+          
         </div>
         <div>
-          <Image className="divImageImage" src={require("../../images/Rectangle5.png")} />
+          <Image
+            className="divImageImage"
+            src={require("../../images/mobile-2-sanwopay.png")}
+          />
         </div>
       </div>
       {
@@ -143,33 +151,30 @@ export const Home = () => {
         <div className="worksMainDiv">
           <div>
             <div className="worksImage">
-              <Image className="worksImageImg" src={require("../../images/Rectanglec.png")} />
+            <AiOutlineUserAdd  style={{width: 60, height: 60, color: "blue"}}/>
             </div>
 
-            <h3 className="worksh3">How It Work</h3>
+            <h3 className="worksh3">Register</h3>
             <p className="worksP">
-              Egestas venenatis velit eu odio vitae tristique. Eget sit urna
-              imperdiet id orem
+            Download and register on the Sanwopay APP, or sign up through our community agents to become a user.
             </p>
           </div>
           <div>
             <div className="worksImage">
-              <Image src={require("../../images/Rectanglec.png")} />
+              <AiOutlineUserAdd  style={{width: 60, height: 60, color: "blue"}}/>
             </div>
-            <h3 className="worksh3">How It Work</h3>
+            <h3 className="worksh3">Top up wallet</h3>
             <p className="worksP">
-              Egestas venenatis velit eu odio vitae tristique. Eget sit urna
-              imperdiet id orem
+            Add money to your wallet using the top-up button or cash in through our community agents nearest.
             </p>
           </div>
           <div>
             <div className="worksImage">
-              <Image src={require("../../images/Rectanglec.png")} />
+            <AiOutlineUserAdd  style={{width: 60, height: 60, color: "blue"}}/>
             </div>
-            <h3 className="worksh3">How It Work</h3>
+            <h3 className="worksh3">Success</h3>
             <p className="worksP">
-              Egestas venenatis velit eu odio vitae tristique. Eget sit urna
-              imperdiet id orem
+            You can now use Sanwopay to pay for your bus fare, pay for goods and get qualified for loans
             </p>
           </div>
         </div>
@@ -177,61 +182,63 @@ export const Home = () => {
       <div className="vidDiv">
         <h1>Do More With SanwoPay</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-          venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
+        Become a community agent by helping the people in your community access basic financial services through our platform while you earn money, to become an agent contact us services@sanwopay.com
         </p>
         <div className="vidDivImage">
-          <Image className="vidDivImageMain" src={require("../../images/Rectangleb.png")} />
+          <Image
+            className="vidDivImageMain"
+            src={require("../../images/do_more_sanwopay.png")}
+          />
         </div>
         <div className="vidAppDownload">
           <div className="appContent">
             <Image
               className="appContentImage"
-              src={require("../../images/Rectangled.png")}
+              src={require("../../images/istore.png")}
             />
-            <div>
-              <h6 className="divText">Download on the</h6>
-              <h6 className="divText">App Store</h6>
-            </div>
+            <div></div>
           </div>
           <div className="appContent">
             <Image
               className="appContentImage"
-              src={require("../../images/Rectangled.png")}
+              src={require("../../images/google_play.png")}
             />
-            <div>
-              <h6 className="divText">Download on the</h6>
-              <h6 className="divText">Google Store</h6>
-            </div>
           </div>
         </div>
       </div>
       <div className="testimonal">
         <div className="testimonalImage">
-          <Image className="testimonalImageMain" src={require("../../images/Rectangled.png")} />
+          <Image
+            className="testimonalImageMain"
+            src={require("../../images/Rectangled.png")}
+          />
         </div>
         <div>
           <p className="testimonalP">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-            venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
-            Lorem ipsum dolor sit amet, consectetur
+            I have been using Sanwopay for the last 4 months now, anytime i need cash they are always availiable to dispense it. Well as long as i have payed back the previous ones. I love using their services.
           </p>
-          <p className="testimonalP2">Heffret Brown</p>
+          <p className="testimonalP2">James Audda</p>
           <p>Customer</p>
         </div>
         <div className="testimonalSideDiv">
           <Image
             className="testimonalSideDivImage"
-            src={require("../../images/Rectanglee.png")}
+            src={require("../../images/sanwopay.webp")}
           />
         </div>
         <div className="testimonalSideDiv2">
-          <Image className="testimonalImageMain" src={require("../../images/Rectangled.png")} />
+          <Image
+            className="testimonalImageMain"
+            src={require("../../images/Rectangled.png")}
+          />
         </div>
       </div>
       <div className="faq">
         <div>
-          <Image className="faqImage" src={require("../../images/Rectanglee.png")} />
+          <Image
+            className="faqImage"
+            src={require("../../images/know_us_sanwo.jpeg")}
+          />
         </div>
         <div className="faqText">
           <h2>FAQ's</h2>
