@@ -5,20 +5,13 @@ import { Image, Button } from "react-bootstrap";
 const Articles = () => {
   return (
     <div>
-      <div style={{ marginTop: 117 }}>
-        <p style={{ textAlign: "center", fontSize: 48, fontFamily: "Poppins", fontWeight: "500" }}>Article Title Comes Here</p>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <Image src={require("../../images/Rectanglej.png")} />
+      <div className="aritcleDiv">
+        <p className="aritcleDivP">Articles</p>
+        <div className="aritcleDivInner">
+          <Image className="aritcleDivInnerImage" src={require("../../images/new-article-ideas.webp")} />
         </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            marginLeft: 232,
-            marginRight: 232,
-          }}
-        >
-          <p style={{fontSize: 20, fontWeight: "400", fontFamily: "Poppins"}}>
+        <div className="aritcleDivInnerTwo">
+          <p className="aritcleDivInnerTwoP">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -35,16 +28,9 @@ const Articles = () => {
             pariatur?
           </p>
         </div>
-        <div
-          style={{
-            justifyContent: "center",
-            marginLeft: 232,
-            marginRight: 232,
-            fontFamily: "Poppins"
-          }}
-        >
+        <div className="aritcleDivInnerThree">
           <h3>Subtitles</h3>
-          <p style={{fontSize: 20, fontWeight: "400", }}>
+          <p className="aritcleDivInnerThreeP">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -61,65 +47,36 @@ const Articles = () => {
             pariatur?
           </p>
         </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            marginLeft: 232,
-            marginRight: 232,
-            alignItems: "center",
-            fontFamily: "Poppins"
-          }}
-        >
+        <div className="aritcleDivInnerFour">
           <h3>POST DATE</h3>
           <h3>Share</h3>
         </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            marginLeft: 232,
-            marginRight: 232,
-            alignItems: "center",
-            fontFamily: "Poppins"
-          }}
-        >
+        <div className="aritcleDivInnerFour">
           <h3>April 08, 2022</h3>
-          <div style={{ display: "flex" }}>
-            <Image
-              style={{ marginRight: 10 }}
+          <div className="aritcleDivInnerFive">
+            <Image className="aritcleDivInnerFiveImage"
               height={24}
               width={24}
               src={require("../../images/Rectanglek.png")}
             />
-            <Image
-              style={{ marginRight: 10 }}
+            <Image className="aritcleDivInnerFiveImage"
               height={24}
               width={24}
               src={require("../../images/Rectanglek.png")}
             />
-            <Image
-              style={{ marginRight: 10 }}
+            <Image className="aritcleDivInnerFiveImage"
               height={24}
               width={24}
               src={require("../../images/Rectanglek.png")}
             />
-            <Image
+            <Image 
               height={24}
               width={24}
               src={require("../../images/Rectanglek.png")}
             />
           </div>
         </div>
-        <div
-          style={{
-            justifyContent: "space-between",
-            marginLeft: 232,
-            marginRight: 232,
-            alignItems: "center",
-            fontFamily: "Poppins"
-          }}
-        >
+        <div className="divDown">
           <h2>Leave a Reply</h2>
           <p>
             Your email address will not be published. Required fields are marked
@@ -128,22 +85,10 @@ const Articles = () => {
           <p>Comment</p>
           <form>
             <label>
-              <input style={{width: 976, height: 154, marginBottom: 40}} type="text" name="name" />
+              <input className="label" type="text" name="name" />
             </label>
           </form>
-          <Button
-            style={{
-              padding: 10,
-              width: 183,
-              height: 64,
-              borderRadius: 8,
-              backgroundColor: "#000000",
-              color: "#ffffff",
-              marginBottom: 115,
-              fontFamily: "Poppins"
-            }}
-            variant="dark"
-          >
+          <Button className="articleBtn" variant="dark">
             Post Comment
           </Button>
         </div>

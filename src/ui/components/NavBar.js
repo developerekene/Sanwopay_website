@@ -15,7 +15,6 @@ function NavBar() {
 
   return (
     <div className="navBar">
-      <div>
         <div>
           <li>
             <a href="/">
@@ -47,7 +46,7 @@ function NavBar() {
         </div>
 
         <div>
-          <Button className="buttonNav" variant="outline-secondary">
+          <Button className="buttonNav" variant="outline-secondary" href="https://play.google.com/store/apps/details?id=com.sanwopay"> 
             Download App
           </Button>
         </div>
@@ -56,9 +55,6 @@ function NavBar() {
             <IoMenu style={{ color: "blue" }} />
           </button>
         </div>
-      </div>
-
-      <div>
         <div className="secondNav">
           <ul className="secondNavUl">
             <li>
@@ -72,7 +68,6 @@ function NavBar() {
             </li>
           </ul>
         </div>
-      </div>
     </div>
   );
 }
