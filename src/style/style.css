@@ -350,26 +350,54 @@ body {
 
 .footerContentUl {
   list-style: none;
+  width: 100px;
+  height: auto;
+}
+
+.footerContentUl li a{
+  text-decoration: none;
+  color: yellow;
+  font-weight: 500;
+}
+
+.footerContentUl li a:hover{
+  color: #000000;
+}
+
+.footerContentUl li{
+  margin-bottom: 20px;
 }
 
 .footerContentCopywrite {
   display: flex;
-  justify-content: "space-between";
+  justify-content: space-between;
 }
 
 .footerContentTerms {
   display: flex;
-  justify-content: "space-between";
+  justify-content: space-between;
 }
 
 .footerContentTermsP {
   margin-right: 50px;
 }
 
+.footerContentTerms p a{
+  color: white;
+  text-decoration: none;
+}
+
+.footerContentTerms p a:hover{
+  color: yellow;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+
 /* -----------------------------------------ABOUT------------------------------------------ */
 
 .aboutDiv {
-  background-color: #c4c4c4;
+  background-color: #06039f;
+  color: #ffffff;
   padding: 100px;
   justify-content: center;
   height: 200px;
@@ -420,6 +448,8 @@ body {
 .aboutDivTwoHtwo {
   text-align: center;
   font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 35px;
 }
 
 .aboutDivTwoP {
@@ -439,7 +469,8 @@ body {
 }
 
 .aboutDivThreeInner {
-  background-color: #c4c4c4;
+  background-color: black;
+  color: #ffffff;
   width: 387px;
   height: 389px;
   margin-right: 20px;
@@ -460,7 +491,8 @@ body {
 }
 
 .aboutFourInner {
-  background-color: #c4c4c4;
+  background-color: black;
+  color: #ffffff;
   width: 347px;
   height: 349px;
   margin-right: 20px;
@@ -498,7 +530,8 @@ body {
 
 .aboutDivSixInner {
   align-items: center;
-  background-color: #c4c4c4;
+  background-color: #06039f;
+  color: #ffffff;
   width: 387px;
   height: 289px;
   margin-right: 20px;

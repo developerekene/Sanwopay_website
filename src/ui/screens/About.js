@@ -11,43 +11,33 @@ export default function About() {
           About Us
         </p>
         <p className="aboutDivPTwo">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-          venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
+          We have so much to offer you, check us out.
         </p>
       </div>
       <div className="aboutDivOne">
         <div>
-          <h1>Lorem ipsum dolor sit amet, consectetur</h1>
+          <h1>Offering Financial Services</h1>
           <p className="aboutDivOneP">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-            venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-            venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-            venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.{" "}
+            Our manin function is to symplify access to finalcial service for transport operators and their surrounding small business echo system.
           </p>
-          <p className="aboutDivOneP">
+          {/* <p className="aboutDivOneP">
             Eget sit urna imperdiet id. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Egestas venenatis velit eu odio vitae tristique.
             Eget sit urna imperdiet id.{" "}
-          </p>
+          </p> */}
         </div>
         <div>
-          <Image src={require("../../images/Rectangle4.png")} />
+          <Image width={'100%'} src={require("../../images/FINANCIAL-SERVICES-BUSINESS.jpeg")} />
         </div>
       </div>
       <div className="aboutDivOne">
         <div className="aboutDivOneP">
-          <Image src={require("../../images/Rectangle4.png")} />
+          <Image width={'100%'} src={require("../../images/mobile-2-sanwopay.png")} />
         </div>
         <div>
-          <h1>Lorem ipsum dolor sit amet, consectetur</h1>
+          <h1>Automate Transport Payments</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-            venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-            venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+            Using our services, you would be able to pay using our mobile phone using our mobile app. It is that simple. All you need to do is download the app and sign up.
           </p>
           <div style={{ display: "flex" }}>
             <div style={{ marginRight: 20 }}>
@@ -70,8 +60,7 @@ export default function About() {
       <div className="aboutDivTwo">
         <h2 className="aboutDivTwoHtwo">Our Services</h2>
         <p className="aboutDivTwoP">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-          venenatis velit eu odio vitae tristique. Eget sit urna imperdiet id.
+          Find all our various services below. We offer a long range of options to choose from.
         </p>
       </div>
       <div>
@@ -87,7 +76,7 @@ export default function About() {
           </div>
           <div className="aboutDivThreeInner">
             <Image src={require("../../images/services.png")} />
-            <h2>Bills Payments</h2>
+            <h2>Transport Payments</h2>
             <p className="aboutDivThreeInnerP">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
               venenatis velit eu odio vitae tristique. Eget sit urna imperdiet
@@ -96,7 +85,7 @@ export default function About() {
           </div>
           <div className="aboutDivThreeInner">
             <Image src={require("../../images/services.png")} />
-            <h2>Bills Payments</h2>
+            <h2>Loan Collection</h2>
             <p className="aboutDivThreeInnerP">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
               venenatis velit eu odio vitae tristique. Eget sit urna imperdiet
@@ -107,7 +96,7 @@ export default function About() {
         <div className="aboutFour">
           <div className="aboutFourInner">
             <Image src={require("../../images/services.png")} />
-            <h2>Bills Payments</h2>
+            <h2>USSD Payments</h2>
             <p className="aboutDivThreeInnerP">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
               venenatis velit eu odio vitae tristique. Eget sit urna imperdiet
@@ -116,7 +105,7 @@ export default function About() {
           </div>
           <div className="aboutFourInner">
             <Image src={require("../../images/services.png")} />
-            <h2>Bills Payments</h2>
+            <h2>Financial Advise</h2>
             <p className="aboutDivThreeInnerP">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
               venenatis velit eu odio vitae tristique. Eget sit urna imperdiet
@@ -139,7 +128,7 @@ export default function About() {
               <Image src={require("../../images/services.png")} />
             </div>
             <h2 className="aboutDivSixInnerH">Samson Bayo</h2>
-            <h5 className="aboutDivSixInnerH">Founder</h5>
+            <h5 className="aboutDivSixInnerH">CEO/Founder</h5>
             <div className="aboutDivSixImage">
               <Image className="aboutDivSixImageMain"
                 src={require("../../images/social.png")}
@@ -154,8 +143,8 @@ export default function About() {
             <div className="aboutDivSixInnerInner">
               <Image src={require("../../images/services.png")} />
             </div>
-            <h2 className="aboutDivSixInnerH">Samson Bayo</h2>
-            <h5 className="aboutDivSixInnerH">Founder</h5>
+            <h2 className="aboutDivSixInnerH">Elisha Eghomwanre</h2>
+            <h5 className="aboutDivSixInnerH">COO/Founder</h5>
             <div className="aboutDivSixImage">
               <Image
                 className="aboutDivSixImageMain"
@@ -171,8 +160,8 @@ export default function About() {
             <div className="aboutDivSixInnerInner">
               <Image src={require("../../images/services.png")} />
             </div>
-            <h2 className="aboutDivSixInnerH">Samson Bayo</h2>
-            <h5 className="aboutDivSixInnerH">Founder</h5>
+            <h2 className="aboutDivSixInnerH">Arron Israel</h2>
+            <h5 className="aboutDivSixInnerH">CTO</h5>
             <div className="aboutDivSixImage">
               <Image
                 className="aboutDivSixImageMain"
@@ -192,8 +181,8 @@ export default function About() {
             <div className="aboutDivSixInnerInner">
               <Image src={require("../../images/services.png")} />
             </div>
-            <h2 className="aboutDivSixInnerH">Samson Bayo</h2>
-            <h5 className="aboutDivSixInnerH">Founder</h5>
+            <h2 className="aboutDivSixInnerH">Deborah Ologundudu</h2>
+            <h5 className="aboutDivSixInnerH">UI/UX</h5>
             <div className="aboutDivSixImage">
               <Image className="aboutDivSixImageMain"
                 src={require("../../images/social.png")}
@@ -208,8 +197,8 @@ export default function About() {
             <div className="aboutDivSixInnerInner">
               <Image src={require("../../images/services.png")} />
             </div>
-            <h2 className="aboutDivSixInnerH">Samson Bayo</h2>
-            <h5 className="aboutDivSixInnerH">Founder</h5>
+            <h2 className="aboutDivSixInnerH">Ekenedilichukwu Okoli</h2>
+            <h5 className="aboutDivSixInnerH">Software Engineer</h5>
             <div className="aboutDivSixImage">
               <Image
                 className="aboutDivSixImageMain"
@@ -225,8 +214,8 @@ export default function About() {
             <div className="aboutDivSixInnerInner">
               <Image src={require("../../images/services.png")} />
             </div>
-            <h2 className="aboutDivSixInnerH">Samson Bayo</h2>
-            <h5 className="aboutDivSixInnerH">Founder</h5>
+            <h2 className="aboutDivSixInnerH">Kenneth Ajah</h2>
+            <h5 className="aboutDivSixInnerH">Software Developer</h5>
             <div className="aboutDivSixImage">
               <Image
                 className="aboutDivSixImageMain"
