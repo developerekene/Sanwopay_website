@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 body {
   box-sizing: border-box;
   background-color: "#ffffff";
@@ -14,7 +16,7 @@ body {
   align-items: center;
   height: 100px;
   width: "100%";
-  background-color: #06039f;
+  background-color: #ffffff;
 }
 
 .navMain {
@@ -35,22 +37,24 @@ body {
 
 .navLink {
   text-decoration: none;
-  color: #ffffff;
-  font-weight: 900;
+  color: #000000;
+  font-weight: 500;
   font-size: 18px;
   font-family: "Work Sans";
   font-style: normal;
-  line-height: 21;
+  line-height: 27;
+  font-family: Poppins;
 }
 
 .navLink:hover {
-  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #000000;
 }
 
 .buttonNav {
-  background-color: yellow;
+  background-color: #ffffff;
   padding: 10px;
-  border-width: 0px;
+  border-width: 1px;
   outline: none;
   border-radius: 10px;
   font-weight: 900px;
@@ -58,11 +62,13 @@ body {
   font-family: "Work Sans";
   font-style: "normal";
   text-decoration: none;
-  color: #000000;
+  border-style: solid;
+  border-color: #0122AE;
+  color: #0122AE;
 }
 
 .buttonNav:hover {
-  background-color: blue;
+  background-color: #0122AE;
   color: #ffffff;
   transition: 2s;
   cursor: pointer;
@@ -87,25 +93,27 @@ body {
   font-family: "work Sans";
   font-style: normal;
   color: #000000;
+  font-family: Poppins;
+  width: 570px;
 }
 
 .headerParagraph {
   font-size: 18px;
-  /* padding-right: 200px; */
+  width: 570px;
   font-family: "Work Sans";
   font-style: normal;
   margin-bottom: 45px;
   margin-top: 24px;
-  /* background-color: green; */
+  font-family: Poppins;
 }
 
 .baseButton {
   padding: 10px;
-  width: 182px;
+  width: 183px;
   height: 64px;
   border-radius: 8px;
   border-width: 1px;
-  background-color: #06039f;
+  background-color: #0122AE;
   color: #ffffff;
   text-decoration: none;
 }
@@ -117,7 +125,7 @@ body {
 }
 
 .whySanwoPay {
-  background-color: #06039f;
+  background-color: #0122AE;
   height: 527px;
   padding-left: 100px;
   padding-right: 100px;
@@ -127,6 +135,7 @@ body {
 }
 
 .whySanwoPayh1 {
+  font-family: Poppins;
   padding-top: 64px;
   text-align: center;
   font-family: "Work Sans";
@@ -136,13 +145,18 @@ body {
 
 .whySanwoPayP {
   text-align: center;
-  font-size: 16;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 64px;
+  font-family: Poppins;
+  padding-left: 400px;
+  padding-right: 400px;
+  color: #FFDE00;
 }
 
 .divList {
   display: flex;
+  justify-content: center;
 }
 
 .divListP {
@@ -154,14 +168,14 @@ body {
   display: flex;
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 100px;
+  padding-top: 50px;
   font-family: "Work Sans";
-  margin-bottom: 96px;
-  padding-top: 100;
+  margin-bottom: 50px;
+  /* background-color: #FFDE00; */
 }
 
 .divImageTextInner {
-  margin-top: 120px;
+  margin-top: 100px;
   margin-left: 122px;
   margin-right: 122px;
 }
@@ -193,17 +207,31 @@ body {
 
 .worksh3 {
   text-align: center;
+  font-family: Poppins;
 }
 
 .worksP {
   font-weight: 400;
   text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: Poppins;
 }
 
 .vidDiv {
   margin-top: 100px;
   text-align: center;
   font-family: "Work Sans";
+}
+
+.vidDiv h1 {
+  font-family: Poppins;
+}
+
+.vidDiv p{
+  font-family: Poppins;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .vidDivImage {
@@ -222,18 +250,20 @@ body {
 } */
 
 .appContent {
+  /* background-color: #06039f; */
   margin-right: 16px;
   width: 100%;
-  height: 70px;
+  height: 100px;
   display: flex;
   align-items: center;
   border-radius: 10px;
+  justify-content: center;
 }
 
 .appContentImage {
   border-radius: 10px;
-  width: 100%;
-  height: 200px;
+  width: 150px;
+  height: 70px;
   margin-right: 5px;
   margin-left: 17px;
 }
@@ -246,13 +276,14 @@ body {
 .testimonal {
   padding-right: 100px;
   padding-left: 100px;
-  background-color: #06039f;
+  background-color: #0122AE;
   display: flex;
   margin-top: 200px;
   height: 344px;
   align-items: center;
   font-family: "Work Sans";
   color: #ffffff;
+  /* opacity: 0.1; */
 }
 
 .testimonalImage {
@@ -337,6 +368,7 @@ body {
   padding-top: 72px;
   display: flex;
   justify-content: "space-between";
+  /* background-color: #FFDE00; */
 }
 
 .footerInnerDivP {
@@ -356,7 +388,7 @@ body {
 
 .footerContentUl li a{
   text-decoration: none;
-  color: yellow;
+  color: white;
   font-weight: 500;
 }
 
@@ -938,10 +970,11 @@ body {
   }
 
   .divImageTextInner {
-    margin-top: 120px;
+    margin-top: 90px;
     margin-left: 20px;
     margin-right: 20px;
     width: auto;
+    background-color: green;
   }
   .divImageImage {
     width: 100%;

@@ -44,8 +44,9 @@ export const Home = () => {
       <div className="homeMainContainer">
         <div>
           <h1 className="headerTitle">
-            A financial service support system for Transport operators and
-            Shop-owners
+            {/* A financial service support system for Transport operators and
+            Shop-owners */}
+            Get convenience of transacting with Payfast
           </h1>
           <p className="headerParagraph">
             A seamless way to pay for bus ride, goods and services in the open
@@ -63,7 +64,7 @@ export const Home = () => {
         <div>
           <Image
             className="topImage"
-            src={require("../../images/bustoon.jpeg")}
+            src={require("../../images/hero-img-SP.png")}
           />
         </div>
       </div>
@@ -75,7 +76,7 @@ export const Home = () => {
           <h1 className="whySanwoPayh1">Why you should Sanwo Pay?</h1>
           <p className="whySanwoPayP">
             {
-              "At Sanwopay we are building a financial service support system for transport operators and their surrounding small business ecosystem, making it easy for them to receive payment, save money daily and get access to loans without leaving their motor parks or business location."
+              "At Sanwopay we are building a financial service support system for small businesses."
             }
           </p>
         </div>
@@ -157,8 +158,9 @@ export const Home = () => {
         <div className="worksMainDiv">
           <div>
             <div className="worksImage">
-              <AiOutlineUserAdd
-                style={{ width: 60, height: 60, color: "blue" }}
+              <Image
+                className="divImageImage"
+                src={require("../../images/RegistrationSP.png")}
               />
             </div>
 
@@ -170,8 +172,9 @@ export const Home = () => {
           </div>
           <div>
             <div className="worksImage">
-              <AiOutlineUserAdd
-                style={{ width: 60, height: 60, color: "blue" }}
+              <Image
+                className="divImageImage"
+                src={require("../../images/MobilePaymentSP.png")}
               />
             </div>
             <h3 className="worksh3">Top up wallet</h3>
@@ -182,8 +185,9 @@ export const Home = () => {
           </div>
           <div>
             <div className="worksImage">
-              <AiOutlineUserAdd
-                style={{ width: 60, height: 60, color: "blue" }}
+              <Image
+                className="divImageImage"
+                src={require("../../images/FinancialSuccess.png")}
               />
             </div>
             <h3 className="worksh3">Success</h3>
@@ -197,14 +201,15 @@ export const Home = () => {
       <div className="vidDiv">
         <h1>Do More With SanwoPay</h1>
         <p>
-          Become a community agent by helping the people in your community
-          access basic financial services through our platform while you earn
-          money, to become an agent contact us services@sanwopay.com
+          At Sanwopay we are building a financial service support system for
+          small businesses focusing on Commercial bus Drivers and shop owners,
+          to help them receive payment for goods and services, send, save, get
+          loan and withdraw money without leaving their parks or marketplace.
         </p>
         <div className="vidDivImage">
           <Image
             className="vidDivImageMain"
-            src={require("../../images/do_more_sanwopay.png")}
+            src={require("../../images/Group666.png")}
           />
         </div>
         <div className="vidAppDownload">
@@ -227,28 +232,29 @@ export const Home = () => {
         <div className="testimonalImage">
           <Image
             className="testimonalImageMain"
-            src={require("../../images/Rectangled.png")}
+            src={require("../../images/BackArrow.png")}
           />
         </div>
         <div>
           <p className="testimonalP">
-            I have been using Sanwopay for the last 4 months now, anytime i need
-            cash they are always availiable to dispense it. Well as long as i
-            have payed back the previous ones. I love using their services.
+            Interactively optimize fully researched expertise vis-a-vis
+            plug-and-play relationships. Intrinsicly develop viral core
+            competencies for fully tested customer service. Enthusiastically
+            create next-generation growth strategies and.
           </p>
-          <p className="testimonalP2">James Audda</p>
-          <p>Customer</p>
+          <p className="testimonalP2">Heffret Brown</p>
+          <p>Founder at KingCash</p>
         </div>
         <div className="testimonalSideDiv">
           <Image
             className="testimonalSideDivImage"
-            src={require("../../images/sanwopay.webp")}
+            src={require("../../images/personSP.png")}
           />
         </div>
         <div className="testimonalSideDiv2">
           <Image
             className="testimonalImageMain"
-            src={require("../../images/Rectangled.png")}
+            src={require("../../images/ForwardArrow.png")}
           />
         </div>
       </div>
@@ -256,7 +262,7 @@ export const Home = () => {
         <div>
           <Image
             className="faqImage"
-            src={require("../../images/know_us_sanwo.jpeg")}
+            src={require("../../images/imgeee.png")}
           />
         </div>
         <div className="faqText">
@@ -288,7 +294,8 @@ export const Home = () => {
               Where is Sanwopay located
             </button>
             <p style={{ display: questionThree, paddingLeft: 20 }}>
-              Current in 6 bus locations in Lagos. You can get our services in any of these locations.
+              Current in 6 bus locations in Lagos. You can get our services in
+              any of these locations.
             </p>
           </div>
         </div>

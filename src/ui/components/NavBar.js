@@ -19,8 +19,9 @@ function NavBar() {
           <li>
             <a href="/">
               <Image
+              style={{width: 219, height: 46}}
                 className="navBarLogo"
-                src={require("../../images/SanwopayLogo.png")}
+                src={require("../../images/mainLogoSP.png")}
               />
             </a>
           </li>
@@ -29,7 +30,7 @@ function NavBar() {
           <Nav className="navMain" variant="pills" defaultActiveKey="/home">
             <Nav.Item>
               <Nav.Link className="navLink" href="/about">
-                About
+                About Us
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
